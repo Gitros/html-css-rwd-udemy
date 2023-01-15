@@ -44,3 +44,20 @@ video,
 iframe {
 	width: 500px;
 }
+
+p {
+	/* m10 */
+	margin: 10px;
+	/* m10-20 */
+	margin: 10px 20px;
+	/* p-10 */
+	padding: -10px;
+	/* m10p */
+	margin: 10%;
+	/* fz20 */
+	font-size: 20px;
+	/* fz20r */
+	font-size: 20rem;
+	/* c#f */
+	color: #fff;
+}
