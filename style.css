@@ -4,19 +4,3 @@ body {
 	color: #fff;
 	font-size: 36px;
 }
-img {
-	width: 800px;
-	border-radius: 25px;
-	display: block;
-	margin: 0 auto;
-}
-div,
-p {
-	color: lime;
-	font-weight: bold;
-}
-
-span {
-	text-decoration: underline;
-	color: tomato;
-}
