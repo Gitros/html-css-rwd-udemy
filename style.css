@@ -11,12 +11,3 @@ body {
 	background-color: #333;
 	color: white;
 }
-
-.test {
-	font-size: 60px;
-}
-
-div p span {
-	font-size: 50px;
-	background-color: gold;
-}
