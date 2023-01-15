@@ -39,3 +39,8 @@ tbody {
 tfoot {
 	background-color: royalblue;
 }
+
+video,
+iframe {
+	width: 500px;
+}
