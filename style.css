@@ -14,6 +14,33 @@ body {
 	color: #fff;
 }
 
-p {
-	font-size: 10rem;
+.top,
+.bottom {
+	margin-top: 30px;
+	padding: 20px 50px;
+}
+
+.top {
+	font-size: 40px;
+	background-color: #000;
+}
+
+.one {
+	font-size: ;
+}
+
+.two {
+	font-size: ;
+}
+
+.bottom {
+	font-size: 30px;
+}
+
+.first {
+	font-size: ;
+}
+
+.second {
+	font-size: ;
 }
