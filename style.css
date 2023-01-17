@@ -26,16 +26,21 @@ div {
 }
 
 .red {
+	margin-top: 400px;
 	background-color: tomato;
 }
 
 .blue {
 	margin: 20px auto;
 	background-color: royalblue;
-	position: fixed;
-	top: 0;
 }
 
 .green {
 	background-color: greenyellow;
+}
+
+.gold {
+	height: 100px;
+	width: 100px;
+	background-color: gold;
 }
