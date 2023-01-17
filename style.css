@@ -11,3 +11,83 @@ body {
 	color: #fff;
 	position: relative;
 }
+
+button {
+	width: 120px;
+	position: absolute;
+	top: 50px;
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+	border: 3px solid white;
+	border-radius: 2px;
+	padding: 10px 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+	transition: 1s;
+}
+
+.btn-zoom,
+.blue {
+	left: 40%;
+	transform: translate(-40%);
+}
+
+.btn-move,
+.red {
+	left: 50%;
+	transform: translate(-60%);
+}
+
+.btn-color,
+.green {
+	left: 70%;
+	transform: translate(-80%);
+}
+
+.square {
+	position: absolute;
+	top: 150px;
+	width: 100px;
+	height: 100px;
+	border-radius: 25px;
+	transition: 2s;
+}
+
+.blue {
+	background-color: blue;
+	box-shadow: 0 0 15px blue;
+	border: 2px solid rgb(4, 4, 156);
+}
+
+.red {
+	background-color: red;
+	box-shadow: 0 0 15px red;
+	border: 2px solid rgb(145, 7, 7);
+}
+
+.green {
+	background-color: green;
+	box-shadow: 0 0 15px green;
+	border: 2px solid rgb(2, 83, 2);
+}
+
+.btn-zoom:hover ~ .square {
+	transform: scale(1.5);
+}
+
+.btn-move:hover ~ .square {
+	top: 400px;
+}
+
+.btn-color:hover ~ .square {
+	background-color: black;
+	border: 2px solid white;
+	box-shadow: 0 0 15px black;
+}
