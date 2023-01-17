@@ -11,3 +11,32 @@ body {
 	color: white;
 	text-transform: uppercase;
 }
+
+main {
+	margin-top: 200px;
+}
+
+div {
+	margin: 0 auto;
+	height: 200px;
+	width: 600px;
+	border: 3px solid black;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	bottom: 10px;
+
+	margin: 20px auto;
+	background-color: royalblue;
+}
+
+.green {
+	background-color: green;
+}
