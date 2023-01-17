@@ -9,3 +9,25 @@ body {
 	background-color: #333;
 	font-size: 36px;
 }
+
+a {
+	color: white;
+
+	text-decoration: none;
+}
+
+a:link {
+	color: lime;
+}
+
+a:visited {
+	color: tomato;
+}
+
+a:hover {
+	color: royalblue;
+}
+
+a:active {
+	color: gold;
+}
