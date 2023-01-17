@@ -9,16 +9,3 @@ body {
 	background-color: #333;
 	font-size: 36px;
 }
-
-.square {
-	width: 300px;
-	height: 300px;
-	background-color: royalblue;
-
-	/* border: 10px solid lime;
-	border: 10px dashed lime;
-	border: 10px dotted lime; */
-
-	border-top: 10px solid #000;
-	border-bottom: 10px solid blue;
-}
