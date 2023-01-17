@@ -10,4 +10,32 @@ body {
 	font-size: 36px;
 	color: white;
 	text-transform: uppercase;
+
+	height: 200vh;
+}
+
+section {
+	margin-top: 400px;
+}
+
+div {
+	margin: 0 auto;
+	height: 200px;
+	width: 600px;
+	border: 3px solid black;
+}
+
+.red {
+	background-color: tomato;
+}
+
+.blue {
+	margin: 20px auto;
+	background-color: royalblue;
+	position: fixed;
+	top: 0;
+}
+
+.green {
+	background-color: greenyellow;
 }
