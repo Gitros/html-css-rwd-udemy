@@ -4,9 +4,18 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Courier New', Courier, monospace;
 	background-color: #fff;
+
+}
+
+section {
+	scroll-margin-top: 70px;
 }
 
 .wrapper {
