@@ -50,10 +50,13 @@ body {
 
 /* nawigacja */
 nav {
+	position: sticky;
+	top: 0;
 	height: 60px;
 	line-height: 60px;
 	background-color: #ddd;
 	text-align: center;
+	z-index: 10;
 }
 
 .burger-icon {
@@ -102,6 +105,7 @@ main {
 
 .products h3 {
 	text-transform: uppercase;
+	transition: transform .3s;
 }
 
 .product {
@@ -110,6 +114,10 @@ main {
 	background-size: cover;
 	background-position: center;
 	text-align: center;
+}
+
+.product:hover h3 {
+	transform: scale(1.6);
 }
 
 .first-product {
